@@ -1,0 +1,59 @@
+/* var.scss import */
+@import "var.scss";
+/* website font import */
+@import "websiteFont.scss";
+
+
+/* website contanner */
+
+.containe {
+  /* website page */
+  .page {
+    /* website head */ 
+    .head {
+      /* website header */
+      header {
+        /* website name */
+        h1 {
+          text-align: $cntr;
+          text-transform: $upper;
+          position: $relPos;
+          top: 20px;
+          font-size: 38px;
+        }
+      }
+    }
+    /* website hr value */
+    .hrValue {
+      /* hr */
+      hr {
+        border: $hrBorder;
+        position: $relPos;
+        top: 40px;
+      }
+    }
+    /* website ka bich ka hissa */
+    .bich {
+      /* website ka contain */
+      .appContanner {
+        /* sign in button style */
+        
+        .sign-in {
+          width: 110px;
+          height: 40px;
+          text-decoration: $nonValue;
+          position: $relPos;
+          top: 80px;
+          left: 150px;
+        }
+      }
+      /* website ka niche */
+      .niche {
+        /* website ka footer */
+        footer {
+          
+        }
+      }
+    }
+  }
+}
